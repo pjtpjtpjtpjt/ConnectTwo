@@ -2,10 +2,164 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title>Bloc Base Project</title>
+    <title>Connect Two</title>
+    <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.13/angular-ui-router.min.js'></script>
+    <script src="/scripts/app.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" href="/styles/style.css">
 </head>
-<body>
-    <script src="/scripts/app.js"></script>
+<body ng-app='connecttwoapp' ng-controller='token-controller' >
+    <div class='h1'>CONNECT TWO</div>
+    
+    <table>    
+    <th><button type="button" class="btn btn-success" id='col1' ng-click='columnClick()'>_________</button></th>
+    <th><button type="button" class="btn btn-success" id='col2' ng-click='columnClick()'>_________</button></th>
+    <th><button type="button" class="btn btn-success" id='col3' ng-click='columnClick()'>_________</button></th>
+    <th><button type="button" class="btn btn-success" id='col4' ng-click='columnClick()'>_________</button></th>
+    <th><button type="button" class="btn btn-success" id='col5' ng-click='columnClick()'>_________</button></th>
+    <th><button type="button" class="btn btn-success" id='col6' ng-click='columnClick()'>_________</button></th>
+    <th><button type="button" class="btn btn-success" id='col7' ng-click='columnClick()'>_________</button></th>
+    
+    <tr class='row1'>
+        <td>
+            <img src="assets/images/blue.jpg" alt="connect two" class='row1-col1'>
+        </td>
+        <td>
+            <img src="assets/images/blue.jpg" alt="connect two" class='row1-col2'>
+        </td>
+        <td>
+            <img src="assets/images/blue.jpg" alt="connect two" class='row1-col3'>
+        </td>
+         <td>
+            <img src="assets/images/blue.jpg" alt="connect two" class='row1-col4'>
+        </td>
+         <td>
+            <img src="assets/images/blue.jpg" alt="connect two" class='row1-col5'>
+        </td>
+         <td>
+            <img src="assets/images/blue.jpg" alt="connect two" class='row1-col6'>
+        </td>
+        <td>
+            <img src="assets/images/blue.jpg" alt="connect two" class='row1-col7'>
+        </td>
+    </tr>
+    <tr class='row2'>
+        <td>
+            <img src="assets/images/blue.jpg" alt="connect two" class='row2-col1'>
+        </td>
+        <td>
+            <img src="assets/images/blue.jpg" alt="connect two" class='row2-col2'>
+        </td>
+        <td>
+            <img src="assets/images/blue.jpg" alt="connect two" class='row2-col2'>
+        </td>
+         <td>
+            <img src="assets/images/blue.jpg" alt="connect two" class='row2-col2'>
+        </td>
+         <td>
+            <img src="assets/images/blue.jpg" alt="connect two" class='row2-col2'>
+        </td>
+        <td>
+            <img src="assets/images/blue.jpg" alt="connect two" class='row2-col2'>
+        </td>
+        <td>
+            <img src="assets/images/blue.jpg" alt="connect two" class='row2-col2'>
+        </td>
+    </tr>
+     <tr class='row3'>
+        <td>
+            <img src="assets/images/blue.jpg" alt="connect two" class='row3-col1'>
+        </td>
+        <td>
+            <img src="assets/images/blue.jpg" alt="connect two" class='row3-col2'>
+        </td>
+        <td>
+            <img src="assets/images/blue.jpg" alt="connect two" class='row3-col3'>
+        </td>
+         <td>
+            <img src="assets/images/blue.jpg" alt="connect two" class='row3-col4'>
+        </td>
+         <td>
+            <img src="assets/images/blue.jpg" alt="connect two" class='row3-col5'>
+        </td>
+        <td>
+            <img src="assets/images/blue.jpg" alt="connect two" class='row3-col6'>
+        </td>
+        <td>
+            <img src="assets/images/blue.jpg" alt="connect two" class='row3-col7'>
+        </td>
+    </tr>
+     <tr class='row4'>
+        <td>
+            <img src="assets/images/blue.jpg" alt="connect two" class='row4-col1'>
+        </td>
+        <td>
+            <img src="assets/images/blue.jpg" alt="connect two" class='row4-col2'>
+        </td>
+        <td>
+            <img src="assets/images/blue.jpg" alt="connect two" class='row4-col3'>
+        </td>
+         <td>
+            <img src="assets/images/blue.jpg" alt="connect two" class='row4-col4'>
+        </td>
+         <td>
+            <img src="assets/images/blue.jpg" alt="connect two" class='row4-col5'>
+        </td>
+        <td>
+            <img src="assets/images/blue.jpg" alt="connect two" class='row4-col6'>
+        </td>
+        <td>
+            <img src="assets/images/blue.jpg" alt="connect two" class='row4-col7'>
+        </td>
+    </tr>
+     <tr class='row5'>
+        <td>
+            <img src="assets/images/blue.jpg" alt="connect two" class='row5-col1'>
+        </td>
+        <td>
+            <img src="assets/images/blue.jpg" alt="connect two" class='row5-col2'>
+        </td>
+        <td>
+            <img src="assets/images/blue.jpg" alt="connect two" class='row5-col3'>
+        </td>
+         <td>
+            <img src="assets/images/blue.jpg" alt="connect two" class='row5-col4'>
+        </td>
+         <td>
+            <img src="assets/images/blue.jpg" alt="connect two" class='row5-col5'>
+        </td>
+        <td>
+            <img src="assets/images/blue.jpg" alt="connect two" class='row5-col6'>
+        </td>
+        <td>
+            <img src="assets/images/blue.jpg" alt="connect two" class='row5-col7'>
+        </td>
+    </tr>
+     <tr class=row6>
+        <td>
+            <img src="assets/images/blue.jpg" alt="connect two" class='row6-col1'>
+        </td>
+        <td>
+            <img src="assets/images/blue.jpg" alt="connect two" class='row6-col2'>
+        </td>
+        <td>
+            <img src="assets/images/blue.jpg" alt="connect two" class='row6-col3'>
+        </td>
+         <td>
+            <img src="assets/images/blue.jpg" alt="connect two" class='row6-col4'>
+        </td>
+         <td>
+            <img src="assets/images/blue.jpg" alt="connect two" class='row6-col5'>
+        </td>
+        <td>
+            <img src="assets/images/blue.jpg" alt="connect two" class='row6-col6'>
+        </td>
+        <td>
+            <img src="assets/images/blue.jpg" alt="connect two" class='row6-col7'>
+        </td>
+    </tr>
+    </table>
+    
 </body>
 </html>
